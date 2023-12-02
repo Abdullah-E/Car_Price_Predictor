@@ -1,7 +1,7 @@
 import axios from "axios";
 import carData from "./data";
 
-const baseURL = "http://saxbomb.pythonanywhere.com";
+const baseURL = "https://saxbomb.pythonanywhere.com";
 const api = axios.create({
   baseURL,
   headers: {
